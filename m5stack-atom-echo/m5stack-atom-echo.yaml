@@ -180,7 +180,7 @@ binary_sensor:
       - voice_assistant.start:
           silence_detection: false
     on_release:
-      - light.turn_off:
+      - light.turn_off: led
       - voice_assistant.stop:
 
 light:
